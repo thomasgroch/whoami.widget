@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-#app-widget-index-js {
+#workana-widget-index-js {
 	/*width: 450px;*/
     top: 100px;
     left: 5px;
@@ -18,15 +18,15 @@
 	border: 0px solid #222;
 }
 
-#app-widget-index-js ul {
+#workana-widget-index-js ul {
 	list-style-type: none;
 	padding: 4px;
 }
 
-#app-widget-index-js ul li {
+#workana-widget-index-js ul li {
 	padding-bottom: 5px;
 }
 
-#app-widget-index-js a {
+#workana-widget-index-js a {
 	text-decoration: none;
 }
