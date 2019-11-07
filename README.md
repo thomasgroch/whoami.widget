@@ -16,4 +16,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing workana-widget
 
-To install workana-widget on your macOS, just [click here to install](bitbar://openPlugin?title=Check%20hosts&src=https://github.com/thomasgroch/whoami.widget/raw/master/index.js)
+To install workana-widget on your machine, follow these steps:
+
+```
+git clone https://github.com/thomasgroch/workana-widget.git ~/Library/Application\ Support/Übersicht/widgets/
+```
+
+## License
+
+This project uses the following license: [MIT](LICENSE).
