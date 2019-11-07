@@ -8,6 +8,10 @@
 
 workana-widget is a widget that allows [Workana](https://www.workana.com/) users to do monitor latest jobs.
 
+## Sample
+
+![demo](https://user-images.githubusercontent.com/67318/68424371-970fe900-0182-11ea-9624-736e455e33e3.gif)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
