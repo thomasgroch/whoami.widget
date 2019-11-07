@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/thomasgroch/whoami.widget)
 ![GitHub stars](https://img.shields.io/github/stars/thomasgroch/whoami.widget?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/thomasgroch/whoami.widget?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/thomasgroch?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/thgroch?style=social)
 
 workana-widget is a widget that allows [Workana](https://www.workana.com/) users to do monitor latest jobs.
 
