@@ -1,5 +1,4 @@
-// command: "curl -s workana-tunnel.herokuapp.com/search | /usr/local/bin/jq '.data'",
-command: "curl -s http://localhost:3000/search | /usr/local/bin/jq '.data'",
+command: "curl -s workana-tunnel.herokuapp.com/search | /usr/local/bin/jq '.data'",
 refreshFrequency: 5000,
 render: function (input) {
     window.workanaWidget = {
