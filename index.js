@@ -1,26 +1,27 @@
-command: "echo $(id -F),$(id -un)",
+// command: "curl -s workana-tunnel.herokuapp.com/search | /usr/local/bin/jq '.data'",
+command: "curl -s http://localhost:3000/search | /usr/local/bin/jq '.data'",
 refreshFrequency: 5000,
 render: function (input) {
-    window.whoamiWidget = {
+    window.appWidget = {
         input: input
     };
-    return '<div id="whoami-widget"></div>';
+    return '<div id="app-widget"></div>';
 },
 afterRender: function(domEl) {
-    var Vue = require('./node_modules/vue/dist/vue');
-    var WhoamiWidget = require('./lib/WhoamiWidget');
+    var Vue = require('./node_modules/vue/dist/vue.js');
+    var AppWidget = require('./lib/AppWidget');
     var app = new Vue({
-        el: '#whoami-widget',
-        template: '<whoami-widget id="whoami-widget" v-bind:input="input"></whoami-widget>',
+        el: '#app-widget',
+        template: '<app-widget id="app-widget" v-bind:input="input"></app-widget>',
         data: function() {
-            return window.whoamiWidget
+            return window.appWidget
         },
         components: {
-            WhoamiWidget: WhoamiWidget
+            AppWidget: AppWidget
         }
     });
 },
 update: function(input) {
-    window.whoamiWidget.input = input;
+    window.appWidget.input = input;
 },
-style: '@import "./whoami.widget/lib/style.css"',
+style: '@import "./app.widget/dist/output.css"',

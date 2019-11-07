@@ -1,14 +1,17 @@
 {
-  "name": "whoami.widget",
-  "version": "0.1.0",
-  "description": "Quick and dirty experiment to integrate Vue.js with felixhageloh/uebersicht",
-  "main": "whoami.js",
+  "name": "workana-widget",
+  "version": "0.1.1",
+  "description": "Allows workana users to do monitor latest jobs.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "yarn watch:builds",
+    "watch:builds": "fswatch lib/*.css | xargs -n 1 npx tailwind build 'lib/style.css' -o 'dist/output.css'"
   },
-  "author": "Till Sanders <mail@till-sanders.de>",
+  "author": "Thomas Letsch Groch <thomas.groch@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "tailwindcss": "1.1.3",
     "vuejs": "^1.0.29"
   }
 }

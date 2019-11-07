@@ -1,9 +1,32 @@
-#whoami-widget-index-js {
-    top: 20px;
-    left: 20px;
-    color: #fff;
-    font-family: 'Consolas';
-    -webkit-font-smoothing: antialiased;
-    user-select: none;
-    font-size: 14px;
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#app-widget-index-js {
+	/*width: 450px;*/
+    top: 100px;
+    left: 5px;
+    color: white;
+	font-size: 10px;
+	font-family: SFNS Display, 'Andale Mono', sans-serif;
+	/*text-shadow: 1px 1px 0 rgba(#000, 0.2);*/
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 12px;
+	border-radius: 6px;
+	border: 0px solid #222;
+}
+
+#app-widget-index-js ul {
+	list-style-type: none;
+	padding: 4px;
+}
+
+#app-widget-index-js ul li {
+	padding-bottom: 5px;
+}
+
+#app-widget-index-js a {
+	text-decoration: none;
 }
