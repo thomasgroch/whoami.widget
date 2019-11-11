@@ -7,7 +7,7 @@
 #workana-widget-index-js {
 	/*width: 450px;*/
     top: 100px;
-    left: 5px;
+    left: 15px;
     color: white;
 	font-size: 10px;
 	font-family: SFNS Display, 'Andale Mono', sans-serif;
@@ -29,4 +29,8 @@
 
 #workana-widget-index-js a {
 	text-decoration: none;
+}
+
+#workana-widget-index-js textarea {
+	
 }
